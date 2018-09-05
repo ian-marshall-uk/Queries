@@ -51,7 +51,11 @@
     <Compile Include="Author.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Cover.cs" />
+    <Compile Include="DeferredExecution.cs" />
     <Compile Include="EntityConfigurations\CourseConfiguration.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="LINQSyntax.cs" />
+    <Compile Include="LoadingRelatedObjects.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.Designer.cs">
       <DependentUpon>201510010029257_InitialMigration.cs</DependentUpon>
@@ -61,6 +65,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tag.cs" />
+    <Compile Include="UpdatingData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
